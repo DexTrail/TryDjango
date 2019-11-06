@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Hello, {{ request.user }}</h1>
+    <p>This is a template</p>
+{% endblock %}
+
+{% block content-another %}
+    <br><br><br>
+    <h2>This is another block</h2>
+    <h3>This is a template</h3>
+{% endblock %}
